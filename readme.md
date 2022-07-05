@@ -1,10 +1,11 @@
 # Cel Shade color picker
 
-<cel-shade-color-picker.surge.sh>
+cel-shade-color-picker.surge.sh
 
 ## What is this?
 
 A small tool to help me create `dark maps` and `lit maps` for my cel shading workflow in blender.
+
 Making these by hand is very annoying so I made this
 
 ![](./readMeImages/image.png)
