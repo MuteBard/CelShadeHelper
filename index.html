@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cel Shade Grid</title>
+    </head>
+    <body>
+        <form id='form' onkeypress="return event.keyCode != 13;">
+            <div>
+                <button id="clearAll">Reset</button>
+            </div>
+            <br/>
+            <div>
+                <h2>Cel Shade Grid</h2>
+                <br/>
+                <div>
+                    <h3>Width</h3>
+                    <select name="xRange" id="xRange">
+                    </select>
+                </div>
+                <div>
+                    <h3>Height</h3>
+                    <select name="yRange" id="yRange">
+
+                    </select>
+                </div>
+                <div>
+                    <h3>Dark Map Hex Grid</h3>
+                    <div id="hexgrid"></div>
+                </div>
+            </div>
+            <div>
+                <canvas id="canvas" style="border:1px solid #d3d3d3;">
+            </div>
+            <div>
+                <button id="submit">Create Cel Grid</button>
+            </div>
+
+        </form>
+        <script src="./index.js"></script>
+    </body>
+</html>
